@@ -133,7 +133,7 @@ h3{
 
 .section-banner__icon{
     width: 24px;
-    margin: 0 5px 20px 5px;
+    margin: 0 35px 20px 35px;
 }
 
 .section-banner__scroll{
@@ -439,5 +439,9 @@ footer input{
     .footer-contact__form{
         margin-top: 40px;
         width: 100%;
+    }
+
+    .section-banner__icon{
+        margin: 0 5px 20px 5px ;
     }
 }
