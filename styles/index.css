@@ -27,6 +27,11 @@ a{
     cursor: pointer;
 }
 
+/* INPUT */
+input{
+    text-align: center;
+}
+
 /* CABECERAS */
 
 h3{
@@ -272,8 +277,29 @@ h3{
 .section-experiences__card + .section-experiences__card{
     margin-left: 15px;
 }
-.section-experiences__exp{
-    border-left: 1px solid red;
+
+.section-experiences__exp-container{
+    position: relative;
+    margin: 10px 0 30px 0;
+}
+
+.section-experiences__exp-text h4, p, span{
+    margin-left: 15px;
+}
+
+.section-experiences__exp-age{
+   margin-right: 10px;
+   display: flex;
+   flex-direction: row;
+}
+
+.section-experiences__exp-age img{
+    width: 20px;
+}
+
+.age{
+    font-weight: bold;
+    color: #f76f7f;
 }
 
 /* My work */
@@ -414,6 +440,11 @@ footer input{
 }
 
 @media screen and (max-width: 532px){
+
+    .section-banner{
+        background-size: 900px;
+        background-position: bottom;
+    }
     .navbar__section{
        display:none;
     }
@@ -444,8 +475,23 @@ footer input{
     .section-banner__icon{
         margin: 0 5px 20px 5px ;
     }
+
     .section-about-me__card{
         justify-content: center;
         align-items: center;
+    }
+
+    .section-about-me__card{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-about-me__card-switches{
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .form-input__group input{
+        height: 20px;
     }
 }
