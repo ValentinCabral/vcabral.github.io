@@ -444,7 +444,8 @@ footer input{
     .section-banner__icon{
         margin: 0 5px 20px 5px ;
     }
-    .card{
-        padding: 5px
+    .section-about-me__card{
+        justify-content: center;
+        align-items: center;
     }
 }
