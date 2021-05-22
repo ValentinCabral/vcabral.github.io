@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" ¡Hola, soy Valentin! Esta es mi primer Landing Page hecha solo con HTML y CSS, espero que les guste.">
+    <link rel="icon" href="assets/avatar.svg" type="image/svg" sizes="32x32">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>VC | Fronted Developer</title>
+</head>
+<body>
+    <header class="navbar__section">
+        <div class="navbar__section-container">
+            <div class="navbar__logo">
+                <span class="navbar__logo-texto">Valentin Cabral</span>
+            </div>
+            <nav class="navbar__menu">
+                <div class="navbar__menu-option">
+                    <img src="assets/user-solid.svg" alt="Imagen" class="navbar__menu-icon">
+                    <a href="#about-me">
+                        <span>Sobre mí</span>
+                    </a>
+                </div>
+                <div class="navbar__menu-option">
+                    <img src="assets/briefcase-solid.svg" alt="Imagen" class="navbar__menu-icon">
+                    <a href="#services">
+                        <span>Servicios</span>
+                    </a>
+                </div>
+                <div class="navbar__menu-option">
+                    <img src="assets/graduation-cap-solid.svg" alt="Imagen" class="navbar__menu-icon">
+                    <a href="#experiences">
+                        <span>Experiencia</span>
+                    </a>
+                </div>
+                <div class="navbar__menu-option">
+                    <img src="assets/layer-group-solid.svg" alt="Imagen" class="navbar__menu-icon">
+                    <a href="#my-work">
+                        <span>Mis trabajos</span>
+                    </a>
+                </div>
+                <div class="navbar__menu-option">
+                    <img src="assets/comments-solid.svg" alt="Imagen" class="navbar__menu-icon">
+                    <a href="#contact">
+                        <span>Contacto</span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="section-banner">
+        <img src="assets/avatar.svg" alt="Aqui va el avatar" class="section-banner__avatar">
+        <h1 class="section-banner__name">Valentin Cabral</h1>
+        <h2 class="section-banner__profession">Frontend Developer</h2>
+        <p>
+            <a href="https://www.linkedin.com/in/valentin-cabral-959a5a185/" target="_blank"><span><img src="assets/linkedin-in-brands.svg" alt="Linkedin" class="section-banner__icon"></span></a>
+            <a href="https://github.com/ValentinCabral" target="_blank"><span><img src="assets/github-brands.svg" alt="GitHub" class="section-banner__icon"></span></a>
+            <a href="https://twitter.com/Valenti96870438" class="section-banner__icon" target="_blank"><span><img src="assets/twitter-brands.svg" alt="Twitter" class="section-banner__icon" ></span></a>
+            <a href="https://www.instagram.com/valentin.cabral/" target="_blank"><span><img src="assets/instagram-brands.svg" alt="Instagram" class="section-banner__icon"></span></a>
+        </p>
+        <a href="mailto:valemiro154@gmail.com"><button class="button-primary">Contáctame</button></a>
+        <div class="section-banner__scroll">
+            <span>Scroll down</span>
+            <a href="#about-me"><img src="assets/scroll.png" alt="Imagen" class="section-banner__scroll-icon"></a>
+        </div>
+    </section>
+    <section class="sections">
+        <section class="section section-about-me" id="about-me">
+            <div class="section-about-me__container">
+                <h3>Sobre mí</h3>
+                <div class="section-about-me__container-card">
+                    <img src="assets/avatar.svg" alt="Aqui va el avatar" class="section-about-me__avatar">
+                    <div class="card section-about-me__card">
+                        <div class="section-about-me__card-info">
+                            <p>
+                                ¡Hola! Soy estudiante de Cs. de la Computación. Actualmente me estoy 
+                                capacitando para ser Frontend Developer.
+                            </p>
+                            <button class="button-primary">Ver curriculum</button>
+                        </div>
+                        <div class="section-about-me__card-switches">
+                            <span>HTML</span>
+                            <div class="section-about-me__skill-bar">
+                                <div class="section-about-me__skill-bar-html"></div>
+                            </div>
+                            <span>CSS</span>
+                            <div class="section-about-me__skill-bar">
+                                <div class="section-about-me__skill-bar-css"></div>
+                            </div>
+                            <span>JavaScript</span>
+                            <div class="section-about-me__skill-bar">
+                                <div class="section-about-me__skill-bar-js"></div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+        <section class="section section-services" id="services">
+            <div class="section-services__container">
+                <h3 id="services">Servicios</h3>
+                <div class="section-services__container-cards">
+                    <div class="card section-services__card card-html card-bottom">
+                        <img src="assets/dev.svg" alt="Imagen" class="section-services__card-logo">
+                        <h4>HTML</h4>
+                        <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
+                    </div>
+                    <div class="card section-services__card card-css card-bottom">
+                        
+                        <img src="assets/ux.svg" alt="Imagen" class="section-services__card-logo">
+                        <h4>CSS</h4>
+                        <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
+                    </div>
+                    <div class="card section-services__card card-js">
+                        <img src="assets/css.svg" alt="Imagen" class="section-services__card-logo">
+                        <h4>JavaScript</h4>
+                        <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-experiences" id="experiences">
+            <div class="section-experiences__container">
+                <h3>Experiencia</h3>
+                <div class="section-experiences__container-cards">
+                    <div class="card section-experiences__card">
+                        <div class="section-experiences__exp-container">
+                            <div class="section-experiences__exp">
+                                <div class="section-experiences__exp-age">
+                                    <img src="assets/graduation-cap.svg" alt="icono graduacion">
+                                    <span class="age">2017-2019</span>
+                                </div>
+                                <div class="section-experiences__exp-text">
+                                    <h4>Academy</h4>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis dolores qui accusamus nobis, architecto eligendi adipisci ipsum harum saepe vero ab, aspernatur culpa totam minus recusandae rem animi voluptatibus ut!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-experiences__exp">
+                            <div class="section-experiences__exp-age">
+                                <img src="assets/graduation-cap.svg" alt="icono graduacion">
+                                <span class="age">2017-2019</span>
+                            </div>
+                            <div class="section-experiences__exp-text">
+                                <h4>Academy</h4>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis dolores qui accusamus nobis, architecto eligendi adipisci ipsum harum saepe vero ab, aspernatur culpa totam minus recusandae rem animi voluptatibus ut!</p>
+                            </div>
+                        </div>
+                        <div class="section-experiences__exp">
+                            <div class="section-experiences__exp-age">
+                                <img src="assets/graduation-cap.svg" alt="icono graduacion">
+                                <span class="age">2017-2019</span>
+                            </div>
+                            <div class="section-experiences__exp-text">
+                                <h4>Academy</h4>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis dolores qui accusamus nobis, architecto eligendi adipisci ipsum harum saepe vero ab, aspernatur culpa totam minus recusandae rem animi voluptatibus ut!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card section-experiences__card">
+                        <div class="section-experiences__exp">
+                            <div class="section-experiences__exp-age">
+                                <img src="assets/graduation-cap.svg" alt="icono graduacion">
+                                <span class="age">2017-2019</span>
+                            </div>
+                            <div class="section-experiences__exp-text">
+                                <h4>Academy</h4>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis dolores qui accusamus nobis, architecto eligendi adipisci ipsum harum saepe vero ab, aspernatur culpa totam minus recusandae rem animi voluptatibus ut!</p>
+                            </div>
+                        </div>
+                        <div class="section-experiences__exp">
+                            <div class="section-experiences__exp-age">
+                                <img src="assets/graduation-cap.svg" alt="icono graduacion">
+                                <span class="age">2017-2019</span>
+                            </div>
+                            <div class="section-experiences__exp-text">
+                                <h4>Academy</h4>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis dolores qui accusamus nobis, architecto eligendi adipisci ipsum harum saepe vero ab, aspernatur culpa totam minus recusandae rem animi voluptatibus ut!</p>
+                            </div>
+                        </div>
+                        <div class="section-experiences__exp">
+                            <div class="section-experiences__exp-age">
+                                <img src="assets/graduation-cap.svg" alt="icono graduacion">
+                                <span class="age">2017-2019</span>
+                            </div>
+                            <div class="section-experiences__exp-text">
+                                <h4>Academy</h4>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis dolores qui accusamus nobis, architecto eligendi adipisci ipsum harum saepe vero ab, aspernatur culpa totam minus recusandae rem animi voluptatibus ut!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-my-work" id="my-work">
+            <div class="section-my-work__container">
+                <h3>Mis trabajos</h3>
+                <div class="section-my-work__firstcontainer">
+                    <div class="section-my-work__container-cards">
+                        <div class="card section-my-work__card">
+                            <img src="assets/trabajo-1.svg" alt="Imagen" class="section-my-work__card-logo">
+                        </div>
+                        <div class="card section-my-work__card">
+                            <img src="assets/trabajo-2.svg" alt="Imagen" class="section-my-work__card-logo">
+                        </div>
+                        <div class="card section-my-work__card">
+                            <img src="assets/trabajo-3.svg" alt="Imagen" class="section-my-work__card-logo">
+                        </div>
+                    </div>
+                    <div class="section-my-work__container-cards">
+                        <div class="card section-my-work__card">
+                            <img src="assets/trabajo-4.svg" alt="Imagen" class="section-my-work__card-logo">
+                        </div>
+                        <div class="card section-my-work__card">
+                            <img src="assets/trabajo-5.svg" alt="Imagen" class="section-my-work__card-logo">
+                        </div>
+                        <div class="card section-my-work__card">
+                            <img src="assets/trabajo-6.svg" alt="Imagen" class="section-my-work__card-logo">
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer class="section">
+        <div class="footer-contact" id="contact">
+            <h3>Contáctame</h3>
+            <div class="footer-contact__container">
+                <div class="footer-contact__info">
+                    <h4>¡Enviame un mensaje!</h4>
+                    <p>Puedes dejarme tu mensaje en el formulario, o escribirme a WhatsApp 
+                    <br>¡Como más gustes!</p>
+                    <a href="https://wa.link/ib94cc" class="footer-contact__info-wsp" target="_blank"><img src="assets/whatsapp.svg" alt="Icono de whatsapp"></a>
+                </div>
+                <div class="footer-contact__form">
+                    <form action="post">
+                        <div class="form-input__group">
+                            <input class="form-input" type="text" name="name" id="" placeholder="Nombre">
+                            <input class="form-input" type="email" name="email" id="" placeholder="Email">
+                        </div>
+                        <input class="form-input" type="textarea" name="textarea" id="" placeholder="Mensaje">
+                        <input class="button-primary" type="submit" value="Enviar">
+                    </form>
+                </div>
+    
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
