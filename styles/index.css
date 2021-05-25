@@ -358,6 +358,7 @@ footer{
     display: flex;
     flex-direction: column;
     width: 30%;
+    color: #444;
 }
 
 .footer-contact__form{
